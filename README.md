@@ -25,5 +25,16 @@ The new text file should be formatted with the appropriate delimiters you wish t
 
 Delimiters are defined in the encoder.properties file.
 
+# End Result
+After running the tool you will end up with the following files:
+
+**EncodedText** - This is the 2-byte encoded text for your new script. It should be ready to copy paste into your data file with a Hex Editor.
+
+**FontSheetText.txt** - This is a text file that contains the text for your new font table. It should be formatted to allow for easy copy pasting into an image editor of your choice.
+
+**textpointers.bin** - This is the new pointer table for your script. You may need to do additional formatting for this depending on what your game expects (For example Sakura Wars has null data padding that needs added back in.). However it should be trivial and allow for easy copy pasting.
+
+**pieces/ (optional)** - This directory will hold the individual text sequence pieces based on the pointer table. This is useful if you need to debug how the game is going to read your text sequences based on the pointer table.
+
 # encoder.properties file
 The properties file is where much of the more specific variables are defined. The file should be propertly commented to make it clear what properties do what and how to use it.
