@@ -14,6 +14,9 @@ The tool is fairly straight forward:
 Input Text File - The original 2-byte encoded text you intend to replace.
 Input Pointer File - The Original pointer table for the text you intend to replace.
 New Text File - The formatted standard text file for your new script.
+All Upper Case - Checking this will convert your script to all Upper Case. Useful if space is an issue.
+Write Pieces - Checking this will output the individual text pieces of the original encoded text based on the pointer values. Useful for debugging.
+
 
 The new text file should be formatted with the appropriate delimiters you wish to use. These delimiters MUST be unique two character pairs. You can have as many as you need, but at least one is required to represent the end of each text sequence in your script. Each text sequence should be an even number of characters, other wise the parsing will not work correctly.
 
