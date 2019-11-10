@@ -5,6 +5,10 @@ What this does is takes the translated text you want to put into the game, as we
 
 This is useful if your game uses 2-byte character encoding and uses a 16x16 font. This way you don't need to had your game to use single byte encoding or a different size font if that is beyond your skill level.
 
+**Example**
+Here is an example of the end result I was able to get from this tool in Sakura Wars' Hanafuda Minigame:
+https://www.youtube.com/watch?v=8gXgDzfZkYI
+
 # How to Use
 
 The tool is fairly straight forward:
